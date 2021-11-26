@@ -274,3 +274,17 @@ We thank the community's efforts for extending SimCSE!
 - [Jianlin Su](https://github.com/bojone) has provided [a Chinese version of SimCSE](https://github.com/bojone/SimCSE).
 - [AK391](https://github.com/AK391) integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio). See demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/akhaliq/SimCSE)
 - [Nils Reimers](https://github.com/nreimers) has implemented a `sentence-transformers`-based [training code](https://colab.research.google.com/drive/1gAjXcI4uSxDE_IcvZdswFYVAo7XvPeoU?usp=sharing#scrollTo=UXUsikOc6oiB) for SimCSE.
+
+
+---
+## 👋 My contributions
+
+
+
+My main use of this code is to **train** models with **SimCSE** on **german datasets**.
+The progress of my experiments can be obeserved [here](https://wandb.ai/1ucky40nc3/huggingface).
+
+
+If you want to *help* or are *interested* in this project feel free to write me or create an `issue`/`pull request`.
+
+> Many thanks to the original authors and contributors for Open-Sourcing their great work!
