@@ -195,6 +195,11 @@ class OurTrainingArguments(TrainingArguments):
         metadata={"help": "Evaluate transfer task dev sets (in validation)."}
     )
 
+    report_to: Optional[str] = field(
+        default="all",
+        metadata={"help": "Let Trainer report results and logs to a given integration. (e.g. 'tensorboard' or 'wandb')"}
+    )
+
     @cached_property
     @torch_required
     def _setup_devices(self) -> "torch.device":
